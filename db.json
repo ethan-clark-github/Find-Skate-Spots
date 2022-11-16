@@ -1,0 +1,58 @@
+{
+  "skatespots": [
+    {
+      "id": "1",
+      "name": "LES Coleman Skatepark",
+      "address": "62 Monroe St",
+      "city": "New York, NY",
+      "zip": "10002",
+      "area": "LES",
+      "image": "https://skatethestates.com/wp-content/uploads/2021/02/LES-Skatepark-in-New-York.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Pier 62 Skatepark",
+      "address": "143 11th Ave",
+      "city": "New York, NY",
+      "zip": "10011",
+      "area": "Chelsea",
+      "image": "https://hudsonriverpark.org/app/uploads/2012/03/Activities-HRPK-Pier62-Skatepark-2.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Tribeca Skatepark",
+      "address": "West Street & N Moore St",
+      "city": "New York, NY",
+      "zip": "10013",
+      "area": "Tribeca",
+      "image": "https://hudsonriverpark.org/app/uploads/2012/03/Tribeca-Skate-Park-HRPK-Fall-e1595005834913.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Tompkins Square Park Skatepark",
+      "address": "East 10th Street and Avenue A Tompkins Square Park",
+      "city": "New York, NY",
+      "zip": "10009",
+      "area": "Alphabet City",
+      "image": "https://www.jenkemmag.com/home/wp-content/uploads/2019/09/savedtompkins-54-1.jpg"
+    },
+    {
+      "name": "Brooklyn Banks",
+      "address": "355-365 Pearl St",
+      "city": "New York",
+      "zip": "10038",
+      "area": "City Hall",
+      "image": "https://blogs.baruch.cuny.edu/eng2100essesfall/files/2015/12/ot1k21cpkdvbaqfltktl.jpg",
+      "id": "fXGSf6S"
+    },
+    {
+      "name": "Hoboken Skatepark",
+      "address": "9 Castle Point Terrace",
+      "city": "hoboken",
+      "zip": "07030",
+      "area": "castle point",
+      "image": "http://3.bp.blogspot.com/-STP60ecTVrc/VHzo4PBN8dI/AAAAAAAAAS8/Dx67PLfDLw4/s1600/5.jpg",
+      "id": "IKUJZJG"
+    }
+  ]
+}
