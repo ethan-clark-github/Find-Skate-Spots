@@ -9,9 +9,9 @@ function Nav() {
         <div className="navbar">
             <NavLink to="/" style={{ paddingLeft: 13, textDecoration: 'none' }} >Home</NavLink>
 
-            <NavLink to="/skatespots" style={{ paddingLeft: 13, textDecoration: 'none' }} >Skatespots</NavLink>
+            <NavLink to="/skatespots" style={{ paddingLeft: 13, textDecoration: 'none' }} >Skate Spots</NavLink>
 
-            <NavLink to="/submitpark" style={{ paddingLeft: 13, textDecoration: 'none' }} >Add a park</NavLink>
+            <NavLink to="/submitpark" style={{ paddingLeft: 13, textDecoration: 'none' }} >Add A Spot</NavLink>
 
         </div>
     )

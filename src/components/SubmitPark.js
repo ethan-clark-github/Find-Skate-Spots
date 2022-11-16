@@ -26,7 +26,7 @@ function NewSkatespotForm({ handleAddSkatespot }) {
 
     return (
         <div className="submit-park">
-            <h2>New Skatespot</h2>
+            <h2>New Skate Spot</h2>
             <form onSubmit={handleSubmit}>
                 <input
                     type="text"

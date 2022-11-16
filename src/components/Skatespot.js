@@ -29,6 +29,7 @@ function Skatespot({ skatespot }) {
                     <p className="card__text">{area}  </p>
                     <div className="card__detail">
                         <p>{address}</p>
+                        <a href= {"https://www.google.com/maps/search/?api=1&query=" + name} >{address}</a>
                         <p>
                             {city}
                         </p>

@@ -9,6 +9,7 @@ import Search from "./Search";
 import SubmitPark from "./SubmitPark";
 import SkatespotContainer from "./SkatespotContainer";
 import Skatespot from "./Skatespot";
+import videoBg from '../skatevideo.mp4'
 
 
 function App() {
@@ -79,6 +80,9 @@ function App() {
 
 
             </Routes>
+            <video autoplay loop muted>
+                <source src={videoBg} type="video/mp4" />
+            </video>
 
 
         </div>
