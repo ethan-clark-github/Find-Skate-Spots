@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Phase-2-findskatespots/static/css/main.fb30a512.css",
+    "main.js": "/Phase-2-findskatespots/static/js/main.0a08c137.js",
+    "static/media/skatevideo.mp4": "/Phase-2-findskatespots/static/media/skatevideo.c139fdf0990b6742a2cd.mp4",
+    "index.html": "/Phase-2-findskatespots/index.html",
+    "main.fb30a512.css.map": "/Phase-2-findskatespots/static/css/main.fb30a512.css.map",
+    "main.0a08c137.js.map": "/Phase-2-findskatespots/static/js/main.0a08c137.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb30a512.css",
+    "static/js/main.0a08c137.js"
+  ]
+}
