@@ -25,7 +25,7 @@ function App() {
     // })
 
     useEffect(() => {
-        fetch('https://find-skate-spots.herokuapp.com:3000/api')
+        fetch('https://find-skate-spots.herokuapp.com/skatespots')
             .then(res => res.json())
             .then((data) => setSkatespots(data));
     }, [])
@@ -33,7 +33,7 @@ function App() {
 
 
     function handleAddSkatespot(newSkatespot) {
-        fetch("https://find-skate-spots.herokuapp.com:3000/api", {
+        fetch("https://find-skate-spots.herokuapp.com/skatespots", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
