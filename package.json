@@ -11,10 +11,11 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.4.3",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "concurrently": "^7.6.0"
   },
   "scripts": {
-    "start": "concurrently \"npm install concurrently\" \"npm run server\" \"npm run client\"",
+    "start": "concurrently \"npm run server\" \"npm run client\"",
     "server": "node server.js",
     "client": "react-scripts start",
     "build": "react-scripts build",
@@ -38,8 +39,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "concurrently": "^7.6.0"
   }
+  
 }
