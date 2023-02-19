@@ -25,7 +25,7 @@ function App() {
     // })
 
     useEffect(() => {
-        fetch('http://localhost:4005/skatespots')
+        fetch('http://localhost:3000/skatespots')
             .then(res => res.json())
             .then((data) => setSkatespots(data));
     }, [])
@@ -33,7 +33,7 @@ function App() {
 
 
     function handleAddSkatespot(newSkatespot) {
-        fetch("http://localhost:4005/skatespots", {
+        fetch("http://localhost:3000/skatespots", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
