@@ -1,5 +1,6 @@
 {
   "name": "find-skate-spots",
+  "start": "json-server --watch db.json --port 5000",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
