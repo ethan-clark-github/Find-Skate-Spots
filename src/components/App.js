@@ -25,7 +25,7 @@ function App() {
     // })
 
     useEffect(() => {
-        fetch('http://localhost:3000/skatespots')
+        fetch('http://localhost:4005/skatespots')
             .then(res => res.json())
             .then((data) => setSkatespots(data));
     }, [])
@@ -33,7 +33,7 @@ function App() {
 
 
     function handleAddSkatespot(newSkatespot) {
-        fetch("http://localhost:3000/skatespots", {
+        fetch("http://localhost:4005/skatespots", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
@@ -80,9 +80,20 @@ function App() {
 
 
             </Routes>
-            <video autoplay loop muted>
+            {/* <video autoplay controls loop muted>
                 <source src={videoBg} type="video/mp4" />
-            </video>
+            </video> */}
+
+<div style={{ position: "fixed", top: 0, left: 0, width: "100%", height: "100%", zIndex: -1 }}>
+  <video autoPlay controls loop muted style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover" }}>
+    <source src={videoBg} type="video/mp4" />
+  </video>
+  <div style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", backgroundColor: "rgba(255, 255, 255, 0.5)" }}></div>
+</div>
+
+
+
+
 
 
         </div>
